@@ -1,0 +1,65 @@
+html, body {
+    height:cover;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/* Specific background images for each page */
+body.home-page {
+    background-image: url('images/home-bg.jpg');
+    background-image: url('images/download.jpg');
+    background-color: lightblue;
+
+}
+
+body.about-page {
+    background-image: url('images/about-bg.jpg');
+    background-image: url('images/im.jpg');
+    background-color: rgb(70, 207, 35);
+}
+
+body.people-page {
+    background-image: url('images/people-bg.jpg');
+    background-image: url('images/se.jpg');
+    background-color: rgb(248, 12, 71);
+
+}
+
+body.places-page {
+    background-image: url('images/places-bg.jpg');
+    background-image: url('images/download\ \(1\).jpg');
+    background-color: rgb(229, 245, 13);
+}
+
+
+body.specials-page {
+    background-image: url('images/specials-bg.jpg');
+    background-image: url('images/s.jpg');
+    background-color: rgb(20, 198, 221);
+}
+
+
+h1 {
+    color: #343a40;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8); /* Optional: white semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container img {
+    margin-top: 20px;
+}
